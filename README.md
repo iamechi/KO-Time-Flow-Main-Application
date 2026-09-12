@@ -3,7 +3,7 @@
 This repo will act as a central hub for information and will eventually be used to store the code needed to run the application in it's entirety. However, there will be separate repos for the microservices and the react front end. In those repos, there will be an overview explaining how the application was designed in their read-mes. This repo will also contain notes in pdf format that were used to help develop this project. Each document will be geared toward a specific technology that was used in the development process in the application. Here is the list of current repos in use for this application:<br/>
 <ul>
   <li>boxing-fighter-management-app</li>
-  <li>bxoing-ui-repo</li>
+  <li>boxing-ui-repo</li>
 </ul>
 <h4>Project Goal & Overview</h4><br/>
 Right now, there are many applications that promoters use to match make and manage their fights. However, many of those applications serve many different functions, which increase their complexity, and complexity makes using applications complicated. However, what if you could have an application that just focused on one thing: scheduling fights? That's what K.O. Time Flow aims to do-focus squarely on designing an application that handles that goal and handles it well.<br/>
