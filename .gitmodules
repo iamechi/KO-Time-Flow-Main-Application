@@ -1,0 +1,18 @@
+[submodule "KO Time Flow Front End"]
+	path = KO Time Flow Front End
+	url = https://github.com/iamechi/boxing-ui-repo.git
+[submodule "Fighter-Management-Application"]
+	path = Fighter-Management-Application
+	url = https://github.com/iamechi/boxing-fighter-management-app.git
+[submodule "boxing-arena-management-app"]
+	path = boxing-arena-management-app
+	url = https://github.com/iamechi/boxing-arena-management-application.git
+[submodule "Eureka-Server"]
+	path = Eureka-Server
+	url = https://github.com/iamechi/boxing-app-eureka-server.git
+[submodule "Arena-Management-Application"]
+	path = Arena-Management-Application
+	url = https://github.com/iamechi/boxing-arena-management-application.git
+[submodule "Fighter-Scheduling-Application"]
+	path = Fighter-Scheduling-Application
+	url = https://github.com/iamechi/boxing-scheduling-fights-management-app.git
