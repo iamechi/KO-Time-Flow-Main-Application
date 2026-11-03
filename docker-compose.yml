@@ -1,0 +1,50 @@
+services:
+  fighter-microservice:
+    image: fighter-management-app
+    container_name: fighter-management-ppp
+    build:
+      context: ./Fighter-Management-Application/boxing-fighter-management-app
+      dockerfile: Dockerfile
+      target: runner
+    ports:
+      - 8081:8081
+
+  arena-microservice:
+    image: arena-management-app
+    container_name: arena-management-ppp
+    build:
+      context: ./Arena-Management-Application/boxing-arena-management-app
+      dockerfile: Dockerfile
+      target: runner
+    ports:
+      - 8082:8082
+
+  fighter-scheduling-microservice:
+    image: fighter-scheduling-app
+    container_name: fighter-scheduling-ppp
+    build:
+      context: ./Fighter-Scheduling-Application/boxing_scheduling_fight_management_app
+      dockerfile: Dockerfile
+      target: runner
+    ports:
+      - 8083:8083
+
+  eureka-server:
+    image: eureka-server-app
+    container_name: eureka-server-ppp
+    build:
+      context: ./Eureka-Server/eureka_server
+      dockerfile: Dockerfile
+      target: runner
+    ports:
+      - 8761:8761
+
+  frontend:
+    image: ko-time-flow-frontend
+    container_name: ko-time-flow-frontend
+    build:
+      context: ./KO Time Flow Front End
+      dockerfile: Dockerfile
+      target: runner
+    ports:
+      - 5173:80
