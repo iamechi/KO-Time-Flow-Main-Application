@@ -43,13 +43,13 @@ services:
     image: ko-time-flow-frontend
     depends_on:
       fighter-microservice:
-        condition: service_healthy
+        condition: service_started
       arena-microservice:
-        condition: service_healthy
+        condition: service_started
       fighter-scheduling-microservice:
-        condition: service_healthy
+        condition: service_started
       eureka-server:
-        condition: service_healthy
+        condition: service_started
     container_name: ko-time-flow-frontend
     build:
       context: ./KO Time Flow Front End
